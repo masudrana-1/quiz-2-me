@@ -15,21 +15,22 @@ const Topic = ({ quiz }) => {
     // console.log(allquiz);
 
     const quizloader = (id) => {
-        setAllquiz(id);
+        allquiz(id);
     };
 
     // console.log(allquiz)
 
 
     return (
-        <div className='w-6/12'>
+        <div className='bg-teal-100 m-auto p-10 w-10/12'>
             <div>
-                <img className='' src={logo} alt="" />
+                <img className='m-auto w-full' src={logo} alt="" />
             </div>
-            <div>
+            <div className='flex justify-around mt-5'>
                 <h4>Name: {name}</h4>
                 <p>Total quiz: {total}</p>
-                <Link to='/home/quiz' className='bg-orange-500' onClick={() => quizloader(id)}>Show all quiz</Link>
+                {/* <button className='bg-orange-500' onClick={() => quizloader(id)}><Link to=></button>Show all quiz</Link></button> */}
+                <Link to={`/quiz/${id}`}>show all</Link>
             </div>
         </div>
     );
