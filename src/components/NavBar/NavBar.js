@@ -5,7 +5,7 @@ import './NavBar.css'
 const NavBar = () => {
     return (
         <div>
-            <div className='lg:flex md:flex bg-blue-300 drop-shadow-2xl justify-between '>
+            <div className='bg-gradient-to-r from-violet-800 via-blue-600 to-green-600 lg:flex md:flex drop-shadow-2xl justify-between sm:pb-4'>
                 <div className='text-orange-600 font-bold text-5xl lg:ml-10'>
                     <h1>Quiz2Me</h1>
                 </div>

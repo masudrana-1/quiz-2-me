@@ -9,6 +9,7 @@ import About from './components/About/About';
 import Quiz from './components/Quiz/Quiz';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -54,6 +55,7 @@ function App() {
     <div className="App">
       <RouterProvider router={route}></RouterProvider>
       <ToastContainer></ToastContainer>
+      <Footer></Footer>
     </div>
   );
 }
