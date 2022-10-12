@@ -1,0 +1,7 @@
+.header {
+    background-image: url('https://www.iaea.org/sites/default/files/styles/2016_landing_page_banner_1140x300/public/22/08/nkm-banner.jpg?itok=3ltoIov_&timestamp=1659369378');
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
