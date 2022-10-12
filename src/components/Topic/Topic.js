@@ -27,7 +27,7 @@ const Topic = ({ quiz }) => {
             <div>
                 <img className='m-auto w-full' src={logo} alt="" />
             </div>
-            <div className='lg:flex justify-around mt-5 text-center'>
+            <div className='flex lg:justify-around flex-col lg:flex-row justify-center items-center mt-5 text-center'>
                 <h4 className='flex text-lg font-medium'>Topic: <p className='text-orange-600 ml-4'>{name}</p></h4>
                 <p className='text-lg font-medium'>Total Quiz: <small className='text-orange-600 text-lg ml-4'>{total}</small> </p>
                 {/* <button className='bg-orange-500' onClick={() => quizloader(id)}><Link to=></button>Show all quiz</Link></button> */}

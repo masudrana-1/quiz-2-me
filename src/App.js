@@ -10,6 +10,7 @@ import Quiz from './components/Quiz/Quiz';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer/Footer';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 function App() {
 
@@ -17,13 +18,19 @@ function App() {
     {
       path: '/',
       element: <Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
       children: [
         {
           path: '/',
           loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Home></Home>,
-          children: [
-          ]
+
+        },
+        {
+          path: '/home',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
+          element: <Home></Home>,
+
         },
         {
           path: '/quiz/:quizId',

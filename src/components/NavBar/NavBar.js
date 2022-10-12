@@ -10,7 +10,7 @@ const NavBar = () => {
                     <h1>Quiz2Me</h1>
                 </div>
                 <nav className='lg:py-4 md:py-2 lg:font-bold md:font-bold lg:text-lg md:text-lg lg:mr-10'>
-                    <NavLink className={({ isActive, end }) => isActive ? 'text-red-800' : undefined} to='/'>Home</NavLink>
+                    <NavLink className={({ isActive, end }) => isActive ? 'text-red-800' : undefined} to='/home'>Home</NavLink>
                     <NavLink className={({ isActive }) => isActive ? 'text-red-800' : undefined} to='/statistics'>Statistics</NavLink>
                     <NavLink className={({ isActive }) => isActive ? 'text-red-800' : undefined} to='/blog'>Blogs</NavLink>
                     <NavLink className={({ isActive }) => isActive ? 'text-red-800' : undefined} to='/about'>About</NavLink>

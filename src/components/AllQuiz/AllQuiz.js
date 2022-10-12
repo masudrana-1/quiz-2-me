@@ -28,7 +28,7 @@ const AllQuiz = ({ ques }) => {
                 <button onClick={rightAns}><EyeIcon className="h-5 w-8 mt-1 absolute top-0 right-0"></EyeIcon></button>
             </div>
             <div className='flex flex-col'>
-                <button onClick={() => notify(a)} className='bg-gradient-to-r from-orange-600 via-purple-300 to-green-200 hover:bg-red-400 rounded-tl-3xl rounded-br-3xl p-3 mt-2 lg:w-3/12 m-auto'>1. {options[0]}</button>
+                <button onClick={() => notify(a)} className='bg-slate-200 hover:bg-green-400 rounded-tl-3xl rounded-br-3xl p-3 mt-2 lg:w-3/12 m-auto'>1. {options[0]}</button>
                 <button onClick={() => notify(b)} className='bg-slate-200 hover:bg-green-400 rounded-tl-3xl rounded-br-3xl p-3 mt-2 lg:w-3/12 m-auto'>2. {options[1]}</button>
                 <button onClick={() => notify(c)} className='bg-slate-200 hover:bg-green-400 rounded-tl-3xl rounded-br-3xl p-3 mt-2 lg:w-3/12 m-auto'>3. {options[2]}</button>
             </div>
