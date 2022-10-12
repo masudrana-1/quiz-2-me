@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className='mt-5'>
             <Header></Header>
-            <p className='text-2xl font-semibold mt-5 shadow-2xl'>Total Quiz Topic: {quiz.data.length}</p>
+            <p className='text-2xl font-semibold mt-5 p-5'>Total Quiz Topic: {quiz.data.length}</p>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-8 mt-6 w-10/12 m-auto'>
                 {
                     data.map(quiz => <Topic key={quiz.id} quiz={quiz}></Topic>)
