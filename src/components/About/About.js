@@ -5,8 +5,8 @@ const About = () => {
     return (
         <div className='h-screen'>
             <div className='mt-6'>
-                <h1 className='text-xl font-bold text-black mb-2'>To know more about</h1>
-                <p className='text-xl font-bold text-black mb-2'>Please contruct us</p>
+                <h1 className='text-2xl font-bold text-black mb-2'>To know more about us</h1>
+                <p className='text-xl font-bold text-black mb-2'>Please contruct</p>
                 <h1 className='text-xl font-bold text-black mb-2'>Mobile : +9907837478</h1>
                 <h1 className='text-xl font-bold text-black mb-2'>Telephone: +9864716543</h1>
                 <h1 className='text-xl font-bold text-black mb-2'>Hotline: 16543 (24 hours)</h1>
